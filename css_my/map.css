@@ -1,0 +1,185 @@
+#map{
+    width: 100%;
+    background-image: url("../img/map2.svg");
+    background-size: contain;
+    position: relative;
+}
+.map__item{
+    border-radius: 50%;
+    background-color: grey;
+    opacity: .6;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.herson-otel{
+    left: 63.6%;
+    top: 59.4%;
+}
+.herson-camp{
+    top: 69.3%;
+    left: 57.3%;
+}
+.herson-pohod{
+    top: 51.7%;
+    left: 56.9%;
+}
+.nicolaew-otel{
+    top: 50.7%;
+    left: 50.9%;
+}
+.nicolaew-camp{
+    top: 54.5%;
+    left: 45.4%;
+}
+.nicolaew-pohod{
+    top: 66%;
+    left: 45%;
+}
+.cherkasi-otel{
+    top: 40%;
+    left: 43.7%;
+}
+.cherkasi-camp{
+    top: 44%;
+    left: 35%;
+}
+.cherkasi-pohod{
+    top: 48%;
+    left: 40%;
+}
+.uzgorod-otel{
+    top: 40%;
+    left: 20.5%;
+}
+.uzgorod-camp{
+    top: 37%;
+    left: 4.8%;
+}
+.uzgorod-pohod{
+    top: 38%;
+    left: 28%;
+}
+.zitomir-otel{
+    top: 11%;
+    left: 42%;
+}
+.zitomir-camp{
+    top: 23.9%;
+    left: 47.4%;
+}
+.zitomir-pohod{
+    top: 6%;
+    left: 24%;
+}
+.chernigow1-otel{
+    top: 21%;
+    left: 51.2%;
+}
+.chernigow1-camp{
+    top: 4%;
+    left: 50%;
+}
+.chernigow1-pohod{
+    top: 11%;
+    left: 47%;
+}
+.lwow-otel{
+    top: 23.2%;
+    left: 25%;
+}
+.lwow-camp{
+    top: 24%;
+    left: 33%;
+}
+.lwow-pohod{
+    top: 20.6%;
+    left: 14%;
+}
+.zaporiza-otel{
+    top: 52%;
+    left: 71.5%;
+}
+.zaporiza-camp{
+    top: 63%;
+    left: 72.2%;
+}
+.zaporiza-pohod{
+    top: 52%;
+    left: 77%;
+}
+.dnepr-otel{
+    top: 43%;
+    left: 77.5%;
+}
+.dnepr-camp{
+    top: 37%;
+    left: 67%;
+}
+.dnepr-pohod{
+    top: 38%;
+    left: 74.5%;
+}
+.poltawa-otel{
+    top: 27.5%;
+    left: 83.7%;
+}
+.poltawa-camp{
+    top: 21%;
+    left: 80.5%;
+}
+.poltawa-pohod{
+    top: 26.5%;
+    left: 71.5%;
+}
+.sumi-otel{
+    top: 20.9%;
+    left: 68.3%;
+}
+.sumi-camp{
+    top: 20.5%;
+    left: 62.7%;
+}
+.sumi-pohod{
+    top: 25%;
+    left: 58.8%;
+}
+.chernigow2-otel{
+    top: 3%;
+    left: 56%;
+}
+.chernigow2-camp{
+    top: 18%;
+    left: 56%;
+}
+.chernigow2-pohod{
+    top: 8%;
+    left: 60.5%;
+}
+.map__activate{
+    animation: map 3s infinite ease-in-out;
+}
+.map__item:hover{
+    animation: map 3s infinite ease-in-out;
+}
+@keyframes map {
+    from {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+    25% {
+        transform: scale(1.2);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+    75% {
+        transform: scale(1.1);
+        animation-timing-function: ease-in;
+    }
+    to {
+        transform: scale(1);
+    }
+}

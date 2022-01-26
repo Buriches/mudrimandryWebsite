@@ -1,0 +1,310 @@
+@media (min-width: 0px) and (max-width: 1000px) {
+    section{
+        padding: 35px 0;
+    }
+    .desktop{
+        display: none!important;
+    }
+    .mobile{
+        display: unset!important;
+    }
+
+    .for-burger{
+        height: 35px;
+    }
+    .menu{
+        display: none !important;
+    }
+    .preview h1 {
+        font-size: 38px;
+    }
+    header .col-2{
+        padding-top: 5px;
+    }
+    .for-button{
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+    .preview{
+        text-shadow: 0 0 5px black;
+        position: relative;
+        min-height: 60vh;
+        padding-top: 80px;
+    }
+    .preview__content button{
+        font-weight: 800;
+    }
+    .preview__content p{
+        font-size: 16px;
+    }
+    .play{
+        height: 60px;
+        width: 60px;
+        display: none;
+    }
+    .play a{
+        width: 63px;
+        height: 63px;
+    }
+    .menu__numbers span{
+        font-size: 15px;
+    }
+    .menu__text{
+        font-size: 12px!important;
+    }
+    .go-to-the-tour:before{
+        right: -95px;
+        top: -30px;
+    }
+    /* burger-open */
+    .burger-open{
+        width: 100%;
+        height: calc(100% - 78px);
+        position: fixed;
+        z-index: 4;
+        background: linear-gradient(to right, #202124, black);
+        bottom: 0;
+    }
+    .menu__item{
+        margin-top: 15px;
+        position: relative;
+        text-align: right;
+        visibility: hidden;
+        right: -30px;
+        transition-duration: .5s;
+    }
+    .menu__item-animated{
+        visibility: visible;
+        right: 0px;
+    }
+    .menu__item a{
+        color: white;
+        font-size: 35px;
+
+    }
+    .burger-wrap{
+        margin-top: 25%;
+        padding: 30px;
+    }
+    .menu__numbers span{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+        visibility: hidden;
+
+    }
+    .menu__numbers .activated{
+        visibility: visible;
+        margin-top: 70px;
+        transition-duration: 1s;
+    }
+    /* ABOUT */
+    .about__more{
+        width: 75%;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 20px;
+        padding-bottom: 7px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .about{
+        min-height: 40vh;
+        padding-top: 0;
+        background-image: url('../img/mandry45.png');
+
+        background-size: 140%;
+
+    }
+
+
+    .about__more span{
+        margin: 0 auto;
+    }
+    .about__more:hover{
+        padding-bottom: 7px;
+        color: white;
+    }
+    .about h2{
+        font-size: 24px !important;
+        font-weight: bold;
+    }
+    .about .row{
+        margin-top: 10px;
+    }
+    .about .col{
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .rocks{
+        display: none;
+    }
+    .snami{
+        font-size: 16px;
+    }
+    .snami h2{
+        margin-top: 30px;
+        font-size: 30px!important;
+    }
+    .snami h3{
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .snami li:before{
+        top: 4px;
+        position: relative;
+        margin-right: 8px;
+    }
+    .photos h2 , #map-section h2{
+        font-size: 30px!important;
+    }
+    .kolonka{
+        width: 100% !important;
+    }
+    .kolonka__wrap{
+        display: block;
+        height: unset !important;
+    }
+    .kolonka img{
+        height: 18% !important;
+        margin-bottom: 5px !important;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+
+
+
+
+    .slider-wrapper {
+        display: flex;
+        height: unset;
+    }
+
+    .slider-navigation {
+        width: 7%;
+        background: linear-gradient(transparent, black , transparent);
+        opacity: .8;
+        position: absolute;
+        height: 50%;
+        top: 25%;
+        z-index: 2;
+    }
+    .slider-navigation:hover{
+        width: 7%;
+    }
+
+    .slider-inner-wrapper {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .slider-wrapper{
+        position: relative;
+    }
+    .previous-item{
+        left: 0;
+    }
+    .next-item{
+        right: 0;
+    }
+    .slider-items-wrapper {
+        -webkit-transition: transform .5s ease;
+        -moz-transition: transform .5s ease;
+        -o-transition: transform .5s ease;
+        transition: transform .5s ease;
+        display: flex;
+    }
+
+    .slider-item {
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .slider-dots-wrapper {
+        text-align: center;
+    }
+
+    .slider-dots-item {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.1);
+        display: inline-block;
+    }
+    .slider-dots-item.active {
+        background: #0c6ca0;
+    }
+
+    .photos__mobile{
+        padding-top: 0;
+    }
+    .photos__mobile img{
+        width: 100% !important;
+        height: 49% !important;
+        object-fit: cover;
+    }
+    .photos{
+        padding-bottom: 0;
+    }
+    .okno{
+        width: 100%;
+        padding: 5px;
+    }
+    .okno__title{
+        padding: 10px;
+    }
+    .okno__content{
+        padding: 0;
+    }
+    .okno__content iframe{
+        height: 300px;
+    }
+    .okno__content:before{
+        width: 99.5%;
+        height: 296px;
+    }
+    .programs__wrap{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .programs__item{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .programs__content .for-button{
+        display: block;
+    }
+    .programs__top-side{
+        flex-wrap: wrap;
+    }
+    .programs__top-side div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .programs__benefits{
+        margin-top: 10px;
+    }
+    .programs__top-side span{
+        font-size: 13px;
+    }
+    .form__img{
+        display: none;
+    }
+    .form__container{
+        flex-wrap: wrap;
+    }
+    .form__content{
+        width: 100%;
+        border-radius: 10px;
+        padding: 40px 20px;
+    }
+    .form__submit:hover{
+        transform: scale(1);
+    }
+    .button:hover{
+        transform: scale(1);
+    }
+}
